@@ -1,7 +1,11 @@
 function Projects() {
     return (
-        <section id="projects">
-            <h3 className="my-4">Projects</h3>
+        <main className="container mt-5">
+            <a href="/" className="text-decoration-none">
+                <i className="fa-solid fa-arrow-left me-1"></i> Back to homepage
+            </a>
+
+            <h3 className="mt-3">Projects</h3>
 
             <div className="row mb-5">
                 <div className="col-12 col-sm-3 mb-1 mb-sm-0">
@@ -36,9 +40,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-
-            <a href="/projects" className="text-decoration-none">View Full Project Archive <i className="fa fa-arrow-right-long ms-1"></i></a>
-        </section>
+        </main>
     )
 }
 
