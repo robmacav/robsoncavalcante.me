@@ -1,6 +1,10 @@
 function Experiences() {
     return (
-        <section className="mt-5" id="experiences">
+        <main className="container mt-5">
+            <a href="/" className="text-decoration-none">
+                <i className="fa-solid fa-arrow-left me-1"></i> Back to homepage
+            </a>
+
             <h3 className="my-4">Experiences</h3>
 
             <div className="row mb-5">
@@ -41,9 +45,7 @@ function Experiences() {
                     </div>
                 </div>
             </div>
-
-            <a href="/experiences" className="text-decoration-none">View Full Resume <i className="fa fa-arrow-right-long ms-1"></i></a>
-        </section>
+        </main>
     )
 }
 
