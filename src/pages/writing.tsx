@@ -1,4 +1,4 @@
-import { useFetch } from "../../../hooks/useFetch";
+import { useFetch } from "../hooks/useFetch";
 
 type Post = {
     title: string;
@@ -9,7 +9,11 @@ function Writing() {
     const { data: repositories, isFetching } = useFetch<Post[]>(endPoint, {});
 
     return (
-        <section id="Writing">
+        <main className="container mt-5">
+            <a href="/" className="text-decoration-none">
+                <i className="fa-solid fa-arrow-left me-1"></i> Back to homepage
+            </a>
+            
             <h3 className="my-4">Blog</h3>
 
             { isFetching && <p className="mt-3">Loading...</p> }
@@ -26,9 +30,7 @@ function Writing() {
                     </div>
                 )
             })}
-
-            <a href="/posts" className="text-decoration-none">View Full Project Archive <i className="fa fa-arrow-right-long ms-1"></i></a>
-        </section>
+        </main>
     )
 }
 
