@@ -30,8 +30,7 @@ function Experiences() {
                     <h5 className="mb-0 fw-bold">Rocha Filho e Nogueira Advogados</h5>
                     <span className="text-secondary">IT Internship</span>
 
-                    <p>In office, I played a comprehensive role, which encompassed the technical maintenance of computers, including improvement planning.</p>
-                    <p>I also highlight the successful creation and implementation of a knowledge repository on the Intranet, using BookStack in a virtual machine.</p>
+                    <p>I played a comprehensive role, which highlights the creation and implementation of a knowledge repository on the Intranet, using BookStack in a virtual machine, computer maintenance and improvement planning.</p>
 
                     <div>
                         <div className="badge bg-primary rounded-pill p-2 me-1 mb-1">Linux</div>
