@@ -4,7 +4,6 @@ import Home from './pages/home.tsx';
 
 import Experiences from './pages/experiences.tsx';
 import Projects from '../src/pages/projects.tsx';
-import Writing from './pages/writing.tsx';
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
 
       <Route exact path="/projects" component={ Projects } />
       <Route exact path="/experiences" component={ Experiences } />
-      <Route exact path="/posts" component={ Writing } />
     </Switch>
   )
 }
