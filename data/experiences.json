@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Full Stack Developer",
+        "company": "SEFIN RO",
+        "description": [
+            "SEFIN é um órgão governamental encarregado pelo controle dos processos de arrecadação, tributação e fiscalização dentro do estado de Rondônia.", 
+            "Atuo como Desenvolvedor Full Stack na equipe de implementação de sistemas que favorecem tal controle."
+        ],
+        "period": {
+            "start_date": "2021",
+            "end_date": "até o momento"
+        },
+        "tags": ["RubyOnRails", "JavaScript", "Oracle Database", "AWS", "Wordpress"]
+    },
+    {
+        "id": 2,
+        "title": "Estágio de TI",
+        "company": "Rocha Filho, Nogueira e Vasconcelos Advogados",
+        "description": [
+            "Desempenhei um papel abrangente, onde se destacam a criação e implementação de um repositório de conhecimento na Intranet em máquina virtual, manutenção de computadores e planejamento de melhorias."
+        ],
+        "period": {
+            "start_date": "2021",
+            "end_date": "2022"
+        },
+        "tags": ["Linux", "HyperV", "BookStack"]
+    }
+]
