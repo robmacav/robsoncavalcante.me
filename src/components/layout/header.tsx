@@ -13,8 +13,9 @@ function Header() {
             < NavBar />
 
             <ul className="list-unstyled d-flex">
+
                 <li><a href="https://github.com/robmacav" className="me-4 text-black"><i className="fa-brands fa-github fa-xl"></i></a></li>
-                <li><a href="https://linkedin.com/in/robmacav" className="me-4 text-black"><i className="fa-brands fa-linkedin fa-xl"></i></a></li>
+                <li><a href="https://linkedin.com/in/roson-machado-cavalcante" className="me-4 text-black"><i className="fa-brands fa-linkedin fa-xl"></i></a></li>
                 <li><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=robmacav@gmail.com&body=I%20come%20through%20your%20portfolio." className="me-4 text-black"><i className="fa fa-envelope fa-xl"></i></a></li>
             </ul>
         </header>
