@@ -1,12 +1,14 @@
 import NavBar from './navbar.tsx';
 
+import phrase from '../../../data/phrase.json'
+
 function Header() {
     return (
         <header className="col-12 col-lg-4 mb-3 mb-lg-0">
             <h3 className="mb-0">Robson Cavalcante</h3>
             <span>Software Developer at SEFIN RO</span>
 
-            <p className="mt-4 mb-4 mb-lg-0">I'm doing something right now...</p>
+            <p className="mt-4 mb-4 mb-lg-0">{phrase}</p>
 
             < NavBar />
 
