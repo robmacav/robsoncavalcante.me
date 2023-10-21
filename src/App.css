@@ -1,3 +1,7 @@
 .bg-primary {
     background-color: rgb(7 59 104 / 80%) !important;
 }
+
+a {
+    color: rgb(7 59 104 / 80%) !important;
+}
