@@ -22,9 +22,10 @@ function Projects() {
             { repositories?.slice(0, 3)?.map(project => {
                 return (
                     <div className="row mb-5">
-                        <div className="col-12 col-sm-3 mb-1 mb-sm-0">
+                        <div className="col-12 col-sm-4 mb-1 mb-sm-0">
+                            <img src="/finances-project-image.png" alt="" className="img-fluid shadow rounded" />
                         </div>
-                        <div className="col-12 col-sm-9">
+                        <div className="col-12 col-sm-8">
                             <h5 className="mb-0 fw-bold">{project.name}</h5>
 
                             <p>{project.description}</p>
