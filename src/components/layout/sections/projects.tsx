@@ -41,7 +41,7 @@ function Projects() {
                 )
             })}
 
-            <a href="/projects" className="text-decoration-none">View Full Project Archive <i className="fa fa-arrow-right-long ms-1"></i></a>
+            {/* <a href="/projects" className="text-decoration-none">View Full Project Archive <i className="fa fa-arrow-right-long ms-1"></i></a> */}
         </section>
     )
 }

@@ -33,7 +33,7 @@ function Experiences() {
                 )
             })}
 
-            <a href="/experiences" className="text-decoration-none">View Full Resume <i className="fa fa-arrow-right-long ms-1"></i></a>
+            {/* <a href="/experiences" className="text-decoration-none">View Full Resume <i className="fa fa-arrow-right-long ms-1"></i></a> */}
         </section>
     )
 }
